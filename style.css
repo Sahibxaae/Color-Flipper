@@ -1,0 +1,48 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Poppins-Light';
+}
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url(Fonts/Poppins-Light.ttf)
+}
+.heading{
+    width: 100%;
+    height: 3rem;
+    background:#B4290B;
+    color: white;
+    padding-left: 1rem;
+    padding-top:0.5rem;
+    padding-right:1rem;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width:100%;
+}
+
+#color{
+    float: right;
+    text-align: center;
+}
+.clr-btn{
+    border-radius:20px;
+    width:150px;
+    height: 40px;
+    border: none;
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background: #c94224e8;
+    color: white;
+    font-weight: bold;
+}
+.clr-btn:hover{
+    background: #B4290B;
+    border: 1px;
+}
